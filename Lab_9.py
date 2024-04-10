@@ -5,7 +5,13 @@ def encoder(numbers):
         encoded_password += encoded_digit
     return encoded_password
 
-
+def decoder(password):
+    decoded_pass=("")
+    for digit in password:
+        new_digit=str((int(digit)-3)%10)
+        decoded_pass+=new_digit
+    return decoded_pass
+    
 def main():
     while True:
         print("Menu")
