@@ -27,7 +27,7 @@ def main():
             password_encoded = encoder('password')
             print("Your password has been encoded and stored!")
         elif choice == '2':
-            pass
+            print(f"The encoded password is {encoded_password}, and the original password is {decoder(encoded_password)}.\n")
         elif choice == '3':
             break
 
