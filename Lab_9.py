@@ -20,7 +20,7 @@ def main():
         print("2. Decode")
         print("3. Quit\n")
 
-        choice = int(input("Please enter an option: "))
+        choice = input("Please enter an option: ")
 
         if choice == '1':
             password = input("Please enter your password: ")
